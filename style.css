@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* navigation bar */
+.navbar{
+    font-size: 18px;
+    background-color: #FABA00;
+    font-weight: 500;
+    top: 0;
+    left: 0;
+ 
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: black;
+    padding : 0 20px;
+    margin: 0 10px;
+}
+.navbar i{
+    font-size: 1.2rem;
+    padding : 0 10px;
+}
+
+/* mobile navbar */
+.navbar .navbar-toggler{
+    border: none;
+    outline: none;
+}
+@media screen  and (max-width:660px) {
+    .navbar .navbar-nav .nav-link{
+     padding: 10px;
+    }
+}
+
+
+/* home section */
+#home .yellow-color{
+    color: #FABA00;
+}
+#home .text-para{
+    color: #FABA00;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+ .shop-btn{
+    background-color:#FABA00 ;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    margin-top: 20px;
+}
+#home .shop-btn:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #FABA00;
+}
+#home{
+    background-image: url("/images/back-img1.avif");
+    width: 100%;
+    height: 100vh;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+ #sale .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .buy-btn{
+    background-color:#FABA00 ;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+ }
+ .buy-btn:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid #FABA00; 
+ }
+
+ /* featured product */
+ .product{
+    cursor: pointer;
+   
+ }
+ .product img{
+    transition: 0.3s all;
+ }
+ .product:hover img{
+ opacity: 0.7;
+ }
+ .star{
+    color: #FABA00;
+ }
